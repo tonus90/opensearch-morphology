@@ -58,7 +58,7 @@ PUT /products
     }
 }
 Dockerfile
-Образ оригинального elasticsearch 8.4.1 с шагом установки плагина analysis-morphology
+Образ оригинального opensearch 2.15 с шагом установки плагина analysis-morphology
 
 Maven
 тесты не реализованы, собирать mvn clean package -Dmaven.test.skip=true и далее копировать полученный /target/releases/elasticsearch-analysis-morphology-8.4.1.zip в существующий кластер и устанавливать через bin/elasticsearch-plugin install file:elasticsearch-analysis-morphology-8.4.1.zip
